@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "sistema",
+      "type": "com.br.sistema.api.config.property.SistemaApiProperty",
+      "sourceType": "com.br.sistema.api.config.property.SistemaApiProperty"
+    },
+    {
+      "name": "sistema.seguranca",
+      "type": "com.br.sistema.api.config.property.SistemaApiProperty$Seguranca",
+      "sourceType": "com.br.sistema.api.config.property.SistemaApiProperty",
+      "sourceMethod": "public com.br.sistema.api.config.property.SistemaApiProperty.Seguranca getSeguranca() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "sistema.origin-permitida",
+      "type": "java.lang.String",
+      "sourceType": "com.br.sistema.api.config.property.SistemaApiProperty"
+    },
+    {
+      "name": "sistema.seguranca.enable-https",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.br.sistema.api.config.property.SistemaApiProperty$Seguranca"
+    }
+  ],
+  "hints": []
+}
